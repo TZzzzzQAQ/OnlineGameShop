@@ -12,12 +12,10 @@ const Home = () => {
                 <p className=" w-full lg:w-3/4 text-DarkColor font-medium">
                     We have some many kinds of games!!!
                 </p>
-
                 <button className=" bg-ExtraDarkColor text-white px-4 py-2 font-medium active:bg-amber-800">
                     shop now
                 </button>
             </div>
-
             <img className=" -ml-5 -mb-5" width={800} src={img} alt="img"/>
         </div>
     );

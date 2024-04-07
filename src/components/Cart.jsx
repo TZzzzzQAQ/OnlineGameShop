@@ -14,7 +14,7 @@ const Cart = ({setShowCart}) => {
 
     return (
         <div className=" bg-[#0000007d] w-full min-h-screen fixed left-0 top-0 z-20 overflow-y-scroll">
-            <div className=" max-w-[400px] w-full min-h-full bg-white absolute right-0 top-0 p-6">
+            <div className=" max-w-[400px] w-full min-h-full bg-white absolute right-(-1) top-0 p-6">
                 <RxCross1
                     className=" absolute right-0 top-0 m-6 text-[24px] cursor-pointer"
                     onClick={() => setShowCart(false)}

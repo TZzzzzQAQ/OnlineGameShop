@@ -4,8 +4,8 @@ import {useAppDispatch} from "../redux/hooks";
 import {addToCart} from "../redux/features/cartSlice";
 import toast from "react-hot-toast";
 
-const ProductCard = ({id, img, name, price, discount}) => {
 
+const ProductCard = ({id, img, name, price, discount, data_aos}) => {
     // redux logic
     const dispatch = useAppDispatch();
 
@@ -23,6 +23,7 @@ const ProductCard = ({id, img, name, price, discount}) => {
     };
     return (
         <div
+            data-aos={data_aos}
             className="h-[370px] 2xl:h-[420px] text-black rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] mb-2 cursor-pointer"
             key={id}
         >
