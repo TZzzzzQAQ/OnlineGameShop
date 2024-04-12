@@ -1,4 +1,4 @@
-# Tech-Demo
+# OnlineGameShop
 
 Welcome to the Ste@m Game Shopping Center! This web application is built using React and styled with Tailwind CSS to offer you a sleek and responsive shopping experience. Dive into our catalog of Steam games and find your next adventure.
 
